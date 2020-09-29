@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.login{
+    height: 700px;
+    width: 500px;
+    margin-left: 200px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+form h1{
+    margin-left: 200px;
+    font-family: fantasy;
+    height: 50px;
+}
+form p{
+    margin-left: 50px;
+    height: 50px;
+    width:100%;
+    color:gray;
+    font-family: cursive;
+    letter-spacing: 5px;
+
+}
+form p a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+form p a:hover{
+    color: red;
+}
+.email{
+    height: 30px;
+}
+.email button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.email input{
+    width: 400px;
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+    
+}
+.password{
+    height:30px;
+}
+.password button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.password input{
+    width: 400px;
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+    
+}
+.buttons{
+    height: 30px;
+    margin-top: 30px;
+}
+.buttons input{
+    padding:6px;
+    font-size:15px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+form button{
+    border: 1px solid black;
+}
+
+.or{
+    font-family: cursive;
+}
+.or::before{
+    content:'';
+    height: 2px;
+    width:250px;
+    float: left;
+    background-color: gray;
+    display: block;
+    margin-top: 8px;
+}
+.or::after{
+    content: '';
+    height: 2px;
+    width: 227px;
+    float: right;
+    background-color: gray;
+    display: block;
+    margin-top:8px;
+}
+.social{
+    height:30px;
+}
+.social button{
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    background-color: orangered;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.social button i{
+    font-size: 30px;
+    color: white;
+}
+.social button span{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: cursive;
+    color:white;
+    font-weight: 1000;
+}
+.social .face{
+    background-color: rgb(68, 68, 207);
+}

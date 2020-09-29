@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.a{
+    float: left;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+.a span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.a span:nth-child(1){
+    color: red;
+    text-shadow: 5px 5px 10px red;
+}
+.a span:nth-child(2){
+    color: green;
+    text-shadow: 5px 5px 10px green;
+}
+.a span:nth-child(3){
+    color: yellow;
+    text-shadow: 5px 5px 10px yellow;
+}
+.a span:nth-child(4){
+    color: violet;
+    text-shadow: 5px 5px 10px violet;
+}
+.a span:nth-child(5){
+    color: orange;
+    text-shadow: 5px 5px 10px orange;
+}
+.a span:nth-child(6){
+    color: blue;
+    text-shadow: 5px 5px 10px blue;
+}
+.a span:nth-child(7){
+    color: gray;
+    text-shadow: 5px 5px 10px gray;
+}

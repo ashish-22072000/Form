@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.form{
+    height: 700px;
+    width: 500px;
+    margin-left: 200px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+form h1{
+    margin-left: 170px;
+    font-family: fantasy;
+}
+form p{
+    margin-left: 50px;
+    height: 50px;
+    width:100%;
+    color:gray;
+    font-family: cursive;
+    letter-spacing: 5px;
+
+}
+form p a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+form p a:hover{
+    color: red;
+}
+.name{
+    height: 30px;
+}
+.name button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+}
+.name input{
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+    color: rgb(104, 104, 104);
+}
+.email{
+    height: 30px;
+}
+.email button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+}
+.email input{
+    width: 400px;
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+}
+.mobile{
+    height:30px;
+}
+.mobile button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px; 
+    padding-left: 13px;
+}
+.mobile select{
+    width: 60px;
+    padding: 6px;
+    margin-left: -4px;
+    border: 1px solid black;
+}
+.mobile input{
+    width:340px;
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+}
+.country{
+    height:30px;
+}
+.country button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+}
+.country select{
+    width: 200px;
+    padding: 6px;
+    margin-left: -4px;
+}
+.gender{
+    height:30px;
+}
+.gender span{
+    font-weight: 1000;
+}
+.gender input{
+    padding:6px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+.password, .confirm{
+    height:30px;
+}
+.password button, .confirm  button{
+    padding: 6px;
+    cursor: none;
+    font-size: 15px;
+}
+.password input, .confirm input{
+    width: 400px;
+    padding:6px;
+    font-size:15px;
+    border: 1px solid black;
+    margin-left: -4px;
+}
+.buttons{
+    height: 30px;
+}
+.buttons input{
+    padding:6px;
+    font-size:15px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+form button{
+    border: 1px solid black;
+}
+form select{
+    border: 1px solid black;
+}
+.or{
+    font-family: cursive;
+}
+.or::before{
+    content:'';
+    height: 2px;
+    width:250px;
+    float: left;
+    background-color: gray;
+    display: block;
+    margin-top: 8px;
+}
+.or::after{
+    content: '';
+    height: 2px;
+    width: 227px;
+    float: right;
+    background-color: gray;
+    display: block;
+    margin-top:8px;
+}
+.social{
+    height:30px;
+}
+.social button{
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    background-color: orangered;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.social button i{
+    font-size: 30px;
+    color: white;
+}
+.social button span{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: cursive;
+    color:white;
+    font-weight: 1000;
+}
+.social .face{
+    background-color: rgb(68, 68, 207);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="C:\Users\Admin\Desktop\project\form\form_css\signup.css" rel="stylesheet">
+    <script src="C:\Users\Admin\Desktop\project\form\form_js\signup.js" type="text/javascript"></script>
+    <title>SignUp Form</title>
+</head>
+<body>
+    <div class="form">
+        <form action="login.html">
+            <h1>SignUp</h1>
+            <br>
+            <p>already have an account?<a href="login.html">Login.</a></p>
+    <div class="name">
+        <button><i class="fa fa-user" aria-hidden="true"></i></button>
+        <input type="text" placeholder="First Name" required maxlength="15">
+        <button><i class="fa fa-user" aria-hidden="true"></i></button>
+        <input type="text" placeholder="Last Name" required maxlength="15">
+    </div><br>
+    <div class="email">
+        <button><i class="fa fa-envelope" aria-hidden="true"></i></button>
+        <input type="email" placeholder="Email" required>
+    </div><br>
+    <div class="mobile">
+        <button><i class="fa fa-mobile" aria-hidden="true"></i></button>
+        <select name="mobile" id="">
+            <option selected="select" disabled="disabled">+01</option>
+            <option value="1">+91</option>
+        </select>
+        <input type="text" placeholder="Mobile No." required maxlength="10" id="mobile">
+        <p id="mob_alert"></p>
+    </div><br>
+    <div class="country">
+        <button><i class="fa fa-globe" aria-hidden="true"></i></button>
+        <select name="country" required>
+            <option selected="select" disabled="disabled">Select Your Country</option>
+            <option value="1">India</option>
+        </select>
+        <button><i class="fa fa-building" aria-hidden="true"></i></button>
+        <select name="city" required>
+            <option selected="select" disabled="disabled">Select Your State</option>
+            <option value="1">Andhra Pradesh</option>
+            <option value="2">Arunachal Pradesh</option>
+            <option value="3">Assam</option>
+            <option value="4">Bihar</option>
+            <option value="5">Chhattisgarh</option>
+            <option value="6">Goa</option>
+            <option value="7">Gujarat</option>
+            <option value="8">Haryana</option>
+            <option value="9">Himachal Pradesh</option>
+            <option value="10">jharkhand</option>
+            <option value="11">Karnataka</option>
+            <option value="12">Kerala</option>
+            <option value="13">Madhya Pradesh</option>
+            <option value="14">Maharashtra</option>
+            <option value="15">Manipur</option>
+            <option value="16">Meghalaya</option>
+            <option value="17">Mizoram</option>
+            <option value="18">Nagaland</option>
+            <option value="19">Odisha</option>
+            <option value="20">Punjab</option>
+            <option value="21">Rajasthan</option>
+            <option value="22">Sikkim</option>
+            <option value="23">Tamil Nadu</option>
+            <option value="24">Telangana</option>
+            <option value="25">Tripura</option>
+            <option value="26">Uttar Pradesh</option>
+            <option value="27">Uttarakhand</option>
+            <option value="28">West Bengal</option>
+        </select>
+    </div><br>
+    <div class="gender">
+        <span>Select Your Gender</span>
+        <input type="radio" name="gender">
+        <i class="fa fa-male" aria-hidden="true">
+            <input type="radio" name="gender">
+            <i class="fa fa-female" aria-hidden="true"></i>
+        </i>
+    </div><br> 
+    <div class="password">
+        <button><i class="fa fa-key" aria-hidden="true"></i></button>
+        <input type="password" placeholder="Password" required minlength="8" maxlength="16">
+        
+    </div><br>
+    <div class="confirm">
+        <button><i class="fa fa-key" aria-hidden="true"></i></button>
+        <input type="password" placeholder="Confirm Password" required minlength="8" maxlength="16">
+    </div><br>
+    <div class="buttons">
+        <input type="reset" value="RESET">
+        <input type="submit" value="SignUp">
+    </div><br><br>
+    <span class="or">OR</span>
+    <div class="social">
+        <button><i class="fa fa-google" aria-hidden="true"><span>SignUp With Google</span></i></button>
+        <button class="face"><i class="fa fa-facebook" aria-hidden="true"><span>SignUp With Facebook</span></i></button>
+    </div>
+        </form>
+    </div>
+</body>
+</html>
